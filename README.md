@@ -17,12 +17,12 @@
 ---
 
 ## 🎥 Demo Video  
- [Watch Demo on YouTube](https://youtu.be/dQw4w9WgXcQ)
+ [Watch Demo on Google Drive](https://drive.google.com/file/d/10394FaNz7a5x_gkO0WWDh2jJNCSDnXc6/view?usp=sharing)
 
 ---
 
 ## 📊 Presentation  
-[View Presentation](#) <!-- Replace '#' with actual link -->
+[View Presentation](https://docs.google.com/presentation/d/1Cz6BLA95afJDb7NxoFo72-yNBAk9Ppu5/edit?usp=sharing&ouid=100968175184568196623&rtpof=true&sd=true) <!-- Replace '#' with actual link -->
 
 ---
 
