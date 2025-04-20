@@ -1,0 +1,41 @@
+streamlit>=1.22.0
+Pillow>=9.0.0
+pandas>=1.3.0
+openpyxl>=3.0.0
+docling>=0.1.0
+requests>=2.26.0
+gTTS>=2.2.0
+pygame>=2.1.0
+SpeechRecognition>=3.8.1
+jsonschema>=4.0.0
+python-docx>=0.8.11
+PyPDF2>=2.0.0 
+streamlit_keyup
+streamlit
+numpy
+sounddevice
+soundfile
+librosa
+opencv-python
+scikit-learn
+pydub
+gTTS
+deepface # Or tensorflow/pytorch depending on deepface backend needs
+requests
+Pillow
+pandas
+openpyxl # Needed by docling_handler and output_saver for optional Excel output
+# docling package (ensure it's installed correctly, might not be on PyPI directly)
+python-dotenv # If you use .env files for configuration
+jsonschema # Was potentially used by old IR converter, maybe still needed? Check pipeline code.
+pygame # Was listed in dependencies.py for App 2
+SpeechRecognition 
+openpyxl # Optional for Doc Processor V2 (Excel tables)
+# docling package (ensure correct installation)
+# python-dotenv # If using .env for API keys
+# pygame # If tts_generator uses it (check its code)
+# SpeechRecognition # Not used in the current main flow? Check dependencies.py V2
+# --- New Dependencies from Friend's Code ---
+cloudinary
+openai # For vision_descriptor using OpenRouter
+pyttsx3 # If using as TTS engine fallback

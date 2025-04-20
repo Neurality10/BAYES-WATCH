@@ -1,0 +1,24 @@
+{
+  "ell788_maj_formatted_properly.md": [
+    {
+      "markdown_source_file": "ell788_maj_formatted_properly.md",
+      "image_source_relative": "images/ell788_maj-img-1.png",
+      "image_full_path": "C:\\Darsh\\Hack\\pipeline_output\\streamlit_run_ell788_maj_20250420_022543\\ell788_maj\\images\\ell788_maj-img-1.png",
+      "original_alt_text": "Image 18",
+      "extracted_context": "ony / conferencing? ## 5. Short answer questions [4 x 1 = 4 marks] (a) What are the factors responsible for perception of size in human vision? (b) Why does the left arrow in the adjoining figure generally appear to be shorter than the right one? [IMAGE LOCATION] ![Image 26](images/ell788_maj-img-2.png) ## PART - B ## 6. Essay question [6 marks] Describe the key features of the massive modularity hypothesis of Cosmides and Tooby. How did this hypothesis come about on the basis on human performance on the",
+      "alt_text_generated": "Error processing image: images/ell788_maj-img-1.png",
+      "description_generated": "Error processing image: images/ell788_maj-img-1.png",
+      "generation_timestamp": "2025-04-20 02:27:06 India Standard Time"
+    },
+    {
+      "markdown_source_file": "ell788_maj_formatted_properly.md",
+      "image_source_relative": "images/ell788_maj-img-2.png",
+      "image_full_path": "C:\\Darsh\\Hack\\pipeline_output\\streamlit_run_ell788_maj_20250420_022543\\ell788_maj\\images\\ell788_maj-img-2.png",
+      "original_alt_text": "Image 26",
+      "extracted_context": "estions [4 x 1 = 4 marks] (a) What are the factors responsible for perception of size in human vision? (b) Why does the left arrow in the adjoining figure generally appear to be shorter than the right one? ![Image 18](images/ell788_maj-img-1.png) [IMAGE LOCATION] ## PART - B ## 6. Essay question [6 marks] Describe the key features of the massive modularity hypothesis of Cosmides and Tooby. How did this hypothesis come about on the basis on human performance on the Wason selection test? What do you think a",
+      "alt_text_generated": "Error processing image: images/ell788_maj-img-2.png",
+      "description_generated": "Error processing image: images/ell788_maj-img-2.png",
+      "generation_timestamp": "2025-04-20 02:27:06 India Standard Time"
+    }
+  ]
+}

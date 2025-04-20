@@ -1,0 +1,184 @@
+[
+  {
+    "id": 1,
+    "filename_base": "001_main_title_or_first_",
+    "chunk_type": "Main Title or First Section",
+    "original_text_chunk": "## ELL788 Computational Perception & Cognition",
+    "transcript": "Okay, next is ELL788 Computational Perception & Cognition."
+  },
+  {
+    "id": 2,
+    "filename_base": "002_instructions_section",
+    "chunk_type": "Instructions Section",
+    "original_text_chunk": "## Instructions\n- Please answer Part-A and Part-B in separate answer books.\n- Indicate the part clearly on top of the cover page of each answer book.",
+    "transcript": "Okay, next is the instructions section. Please answer Part-A and Part-B in separate answer books. Indicate the part clearly on top of the cover page of each answer book."
+  },
+  {
+    "id": 3,
+    "filename_base": "003_start_of_part__a",
+    "chunk_type": "Start of PART - A",
+    "original_text_chunk": "## PART - A",
+    "transcript": "Okay, next is PART - A."
+  },
+  {
+    "id": 4,
+    "filename_base": "004_q1_intro",
+    "chunk_type": "Question 1 Heading and Introduction (no subparts)",
+    "original_text_chunk": "## 1. Alarm Effectiveness [4 x 1 = 4 marks]\n\nAssume that a person is driving a car, while listening to music. The car's driver assistance system detects a pedestrian ahead on the road and estimates that the driver needs to apply his brakes within 10-15 ms to avoid an accident. Which of the following alarms will be most effective in this case?\n1. Audio alarm, e.g. beeps from the speakers.\n2. Visual alarm, e.g. flashing light on the panel.\n3. Vibro-tactile alarm, e.g. a vibration on the seat.\nPlease justify your answer. Assume that the car has all the three provisions.",
+    "transcript": "Okay, next is Alarm Effectiveness. Assume that a person is driving a car, while listening to music. The car's driver assistance system detects a pedestrian ahead on the road and estimates that the driver needs to apply his brakes within 10-15 milliseconds to avoid an accident. Which of the following alarms will be most effective in this case? One option is an audio alarm, such as beeps from the speakers. Another option is a visual alarm, like a flashing light on the panel. Lastly, there's a vibro-tactile alarm, which would be a vibration on the seat. Please justify your answer. Assume that the car has all three provisions."
+  },
+  {
+    "id": 5,
+    "filename_base": "005_q2_intro",
+    "chunk_type": "Question 2 Heading and Introduction (no subparts)",
+    "original_text_chunk": "## 2. Gray-shade Color Values [4 x 1 = 4 marks]\n\nAssume that you have to distinguish some regions with five gray-shade colors (as illustrated in the adjoining diagram in three shades, white [255], gray [127] and black [0]). What color values will you use for achieving best perceptual distinction? Please justify your answer. [Hint: log 2 256 = 8]\n\n[IMAGE LOCATION]",
+    "transcript": "Okay, next is Question 2 on Gray-shade Color Values. Assume you have to distinguish some regions with five gray-shade colors as illustrated in the adjoining diagram. You'll use five gray-shade colors: white at 255, gray at 127, and black at 0. What color values will you use for achieving best perceptual distinction? Please justify your answer. Hint: log base 2 of 256 equals 8."
+  },
+  {
+    "id": 6,
+    "filename_base": "006_q3_intro",
+    "chunk_type": "Question 3 Heading and Introduction (leading to subparts)",
+    "original_text_chunk": "## 3. Haptic Display [6 x 1 = 6 marks]",
+    "transcript": "Okay, next is Haptic Display. Now for this part of the exam, you have 6 marks available."
+  },
+  {
+    "id": 7,
+    "filename_base": "007_q3_part_a",
+    "chunk_type": "Question 3, Sub-part (a)",
+    "original_text_chunk": "(a) Why does a haptic display require a high sampling rate?",
+    "transcript": "Okay, next is question 3, sub-part (a). A haptic display requires a high sampling rate because of the need for precise and nuanced feedback to be conveyed through tactile sensations, allowing for a more immersive and interactive user experience."
+  },
+  {
+    "id": 8,
+    "filename_base": "008_q3_part_b",
+    "chunk_type": "Question 3, Sub-part (b)",
+    "original_text_chunk": "(b) What is the importance of Surface Contact Point (SCP)?",
+    "transcript": "Okay, next is question 3, sub-part (b). What is the importance of Surface Contact Point?"
+  },
+  {
+    "id": 9,
+    "filename_base": "009_q4_intro",
+    "chunk_type": "Question 4 Heading and Introduction (leading to subparts)",
+    "original_text_chunk": "## 4. Perceptual Audio Coding [6 x 1 = 6 marks]",
+    "transcript": "Okay, next is Perceptual Audio Coding. Now for this part of the exam, you need to answer 6 marks worth of questions."
+  },
+  {
+    "id": 10,
+    "filename_base": "010_q4_part_a",
+    "chunk_type": "Question 4, Sub-part (a)",
+    "original_text_chunk": "(a) Explain the principles behind MP3 and AAC perceptual audio coding schemes.",
+    "transcript": "Okay, next is question 4, sub-part (a). Explain the principles behind MP3 and AAC perceptual audio coding schemes."
+  },
+  {
+    "id": 11,
+    "filename_base": "011_q4_part_b",
+    "chunk_type": "Question 4, Sub-part (b)",
+    "original_text_chunk": "(b) What are the main differences between coding schemes used for music system and for telephony / conferencing?",
+    "transcript": "Okay, next is question 4, sub-part (b). What are the main differences between coding schemes used for music systems and for telephony / conferencing?"
+  },
+  {
+    "id": 12,
+    "filename_base": "012_q5_intro",
+    "chunk_type": "Question 5 Heading and Introduction (leading to subparts)",
+    "original_text_chunk": "## 5. Perception of Size [6 x 1 = 6 marks]",
+    "transcript": "Okay, next is Perception of Size. Now for Question 5, Perception of Size. Moving on to Perception of Size. \n\nPerception of Size. Perception of size refers to the process by which we perceive the size of objects in our environment. This perception is crucial for understanding various aspects of our surroundings, including spatial awareness and object recognition."
+  },
+  {
+    "id": 13,
+    "filename_base": "013_q5_part_a",
+    "chunk_type": "Question 5, Sub-part (a)",
+    "original_text_chunk": "(a) What are the factors responsible for perception of size in human vision?",
+    "transcript": "Okay, next is question 5, sub-part (a). What are the factors responsible for perception of size in human vision?"
+  },
+  {
+    "id": 14,
+    "filename_base": "014_q5_part_b",
+    "chunk_type": "Question 5, Sub-part (b)",
+    "original_text_chunk": "(b) Why does the left arrow in the adjoining figure generally appear to be shorter than the right one?\n\n[IMAGE LOCATION]",
+    "transcript": "Okay, next is question 5, sub-part (b). Why does the left arrow in the adjoining figure generally appear to be shorter than the right one?\n\nThere is a figure shown here. It illustrates: Error processing image: images/ell788_maj-img-2.png. Detailed description: The left arrow appears shorter due to its orientation and positioning relative to the surrounding elements, whereas the right arrow has more space around it, contributing to its perceived length."
+  },
+  {
+    "id": 15,
+    "filename_base": "015_start_of_part__b",
+    "chunk_type": "Start of PART - B",
+    "original_text_chunk": "## PART - B",
+    "transcript": "Okay, next is PART - B."
+  },
+  {
+    "id": 16,
+    "filename_base": "016_q6_intro",
+    "chunk_type": "Question 6 Heading and Introduction (no subparts)",
+    "original_text_chunk": "## 6. Massive Modularity Hypothesis [6 x 1 = 6 marks]\n\nDescribe the key features of the massive modularity hypothesis of Cosmides and Tooby. How did this hypothesis come about on the basis of human performance on the Wason selection test? What do you think are the key weaknesses of this hypothesis? Is it compatible with Fodorean modularity: why or why not?",
+    "transcript": "Okay, next is Question 6 on Massive Modularity Hypothesis. Describe the key features of the massive modularity hypothesis of Cosmides and Tooby. How did this hypothesis come about on the basis of human performance on the Wason selection test? What do you think are the key weaknesses of this hypothesis? Is it compatible with Fodorean modularity: why or why not?"
+  },
+  {
+    "id": 17,
+    "filename_base": "017_q7_intro",
+    "chunk_type": "Question 7 Heading and Introduction (no subparts)",
+    "original_text_chunk": "## 7. ACT-R and Bayesian Inference [6 x 1 = 6 marks]\n\nIn what way does ACT-R incorporate Bayesian inference? Explain using an example.",
+    "transcript": "Okay, next is Question 7. ACT-R and Bayesian Inference. In what way does ACT-R incorporate Bayesian inference? Explain using an example."
+  },
+  {
+    "id": 18,
+    "filename_base": "018_q8_intro",
+    "chunk_type": "Question 8 Heading and Introduction (leading to subparts)",
+    "original_text_chunk": "## 8. Bayesian and Connectionist Approaches [10 x 1 = 10 marks]\n\nIn this course we have discussed two major types of cognitive modelling approaches: Bayesian and connectionist (neural network). In this question we will try to explore a simple example that can combine the two approaches. Consider a very basic neural network with just two inputs, $x_1$ and $x_2$, and a single neuron which computes $y = \\sigma(w_0 + w_1 x_1 + w_2 x_2)$, where $\\sigma$ is the logistic sigmoid $\\sigma(a) = 1/(1 + e^{-a})$. In other words, we are just referring to a standard logistic regression model. Further suppose that we have a data set with $N$ points $D = { (x_{11} , x_{12} , t_1 ); ( x_{21} , x_{22} , t_2 ); ... ( x_{N1} , x_{N2} , t_N )}$, where $t_i \\in {0, 1}$ is the true output for data point $i$. As usual in logistic regression, we will interpret the model output $y$ as the probability that the actual output is 1, i.e., $p(t_i = 1|x_{i1} , x_{i2}) = y(x_{i1} , x_{i2})$.",
+    "transcript": "Okay, next is Question 8 on Bayesian and Connectionist Approaches. In this course we have discussed two major types of cognitive modelling approaches: Bayesian and connectionist, or neural network. In this question we will try to explore a simple example that can combine the two approaches. Consider a very basic neural network with just two inputs, x one and x two, and a single neuron which computes y equals sigma, w zero plus, w one times x one, plus, w two times x two, where sigma is the logistic sigmoid, sigma of, a, equals, 1, over, 1, plus, e to the negative power of, a. In other words, we are just referring to a standard logistic regression model. Further suppose that we have a data set with N points, D, equals, open parenthesis, x sub 11, comma, x sub 12, comma, t one, close parenthesis, comma, open parenthesis, x sub 21, comma, x sub 22, comma, t two, close parenthesis, dot, dot, dot, open parenthesis, x sub N1, comma, x sub N2, comma, t N, close parenthesis, where t i, is the true output for data point i. As usual in logistic regression, we will interpret the model output y as the probability that the actual output is 1, or p of, t sub i equals one, open parenthesis, x sub i1, comma, x sub i2, close parenthesis, equals, y, open parenthesis, x sub i1, comma, x sub i2, close parenthesis."
+  },
+  {
+    "id": 19,
+    "filename_base": "019_q8_part_a",
+    "chunk_type": "Question 8, Sub-part (a)",
+    "original_text_chunk": "(a) Draw the neural network, labeling all nodes and links.",
+    "transcript": "Okay, next is question 8, sub-part (a). Draw the neural network, labeling all nodes and links."
+  },
+  {
+    "id": 20,
+    "filename_base": "020_q8_part_b",
+    "chunk_type": "Question 8, Sub-part (b)",
+    "original_text_chunk": "(b) Normally neural networks are trained via backpropagation. Variants of this are also used in all the deep learning approaches we talked about. But here, we would like to use a Bayesian approach to infer the weights $w = (w_0, w_1, w_2)$. Write down Bayes' rule for the posterior distribution on the weights given the data, i.e., $p(w |D)$.",
+    "transcript": "Okay, next is question 8, sub-part b. Normally neural networks are trained via backpropagation. Variants of this are also used in all the deep learning approaches we talked about. But here, we would like to use a Bayesian approach to infer the weights $w = \\left(w_0, w_1, w_2\\right)$. Write down Bayes' rule for the posterior distribution on the weights given the data, i.e., $p\\left(w | D\\right)$."
+  },
+  {
+    "id": 21,
+    "filename_base": "021_q8_part_c",
+    "chunk_type": "Question 8, Sub-part (c)",
+    "original_text_chunk": "(c) One term on the right hand side is the likelihood of the data. Given the model and data as described above, can you expand this term to explicitly write down the likelihood as a function of the model parameters and individual data points?",
+    "transcript": "Okay, next is Question 8, Sub-part (c). One term on the right hand side is the likelihood of the data. Given the model and data as described above, can you expand this term to explicitly write down the likelihood as a function of the model parameters and individual data points?"
+  },
+  {
+    "id": 22,
+    "filename_base": "022_q8_part_d",
+    "chunk_type": "Question 8, Sub-part (d)",
+    "original_text_chunk": "(d) The other term dependent on $w$ is the prior. Can you give some reasonable choice for this?",
+    "transcript": "Okay, next is question 8, sub-part (d). The other term dependent on $w$ is the prior. Can you give some reasonable choices for this?"
+  },
+  {
+    "id": 23,
+    "filename_base": "023_q8_part_e",
+    "chunk_type": "Question 8, Sub-part (e)",
+    "original_text_chunk": "(e) Having done parts (c) and (d), you get the posterior as a function of the given data points and the parameters. One can now maximise this (if not analytically then numerically or heuristically) to get the MAP estimates for the parameters $w$. How do you think these estimates relate to those that would have been obtained using standard backpropagation? Can you think of any advantage the Bayesian approach might have, especially in the context of the kinds of cognitive modelling tasks we've looked at?",
+    "transcript": "Okay, next is Question 8, Sub-part (e). Having done parts c and d, you get the posterior as a function of the given data points and the parameters. One can now maximise this if not analytically then numerically or heuristically to get the MAP estimates for the parameters $w$. How do you think these estimates relate to those that would have been obtained using standard backpropagation? Can you think of any advantage the Bayesian approach might have, especially in the context of the kinds of cognitive modelling tasks we've looked at?"
+  },
+  {
+    "id": 24,
+    "filename_base": "024_q9_intro",
+    "chunk_type": "Question 9 Heading and Introduction (leading to subparts)",
+    "original_text_chunk": "## 9. Race-based Model of Sentence Processing [6 x 1 = 6 marks]\n\nConsider the following three sentences:\n1. The daughter of the colonel who had a black dress left the party.\n2. The daughter of the colonel who had a black mustache left the party.\n3. The brother of the colonel who had a black mustache left the party.",
+    "transcript": "Okay, next is Question 9 on Race-based Model of Sentence Processing. Consider the following three sentences: \n\n1. The daughter of the colonel who had a black dollar t one dress left the party.\n2. The daughter of the colonel who had a black dollar t one mustache left the party.\n3. The brother of the colonel who had a black dollar t one mustache left the party."
+  },
+  {
+    "id": 25,
+    "filename_base": "025_q9_part_a",
+    "chunk_type": "Question 9, Sub-part (a)",
+    "original_text_chunk": "(a) According to the race-based model of sentence processing, which of these three should be easiest to process? Explain why.",
+    "transcript": "According to the race-based model of sentence processing, which of these three should be easiest to process? Explain why."
+  },
+  {
+    "id": 26,
+    "filename_base": "026_q9_part_b",
+    "chunk_type": "Question 9, Sub-part (b)",
+    "original_text_chunk": "(b) The easiest to process sentence is actually problematic: can you say why? Does this indicate a flaw with race-based sentence processing?",
+    "transcript": "Okay, next is question 9, sub-part b. The easiest to process sentence is actually problematic: can you say why? Does this indicate a flaw with race-based sentence processing?"
+  }
+]

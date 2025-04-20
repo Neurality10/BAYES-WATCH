@@ -1,0 +1,1621 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.3.0",
+  "name": "ell788_maj",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 2358179560885184070,
+    "filename": "ell788_maj.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 237.8,
+            "t": 784.674,
+            "r": 538.628,
+            "b": 755.408,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "Major Examination Full marks 40 Time: 2 Hours",
+      "text": "Major Examination Full marks 40 Time: 2 Hours"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 57.8,
+            "t": 784.674,
+            "r": 237.8,
+            "b": 769.176,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "ELL788",
+      "text": "ELL788"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.8,
+            "t": 768.692,
+            "r": 247.216,
+            "b": 755.408,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "Computational Perception & Cognition",
+      "text": "Computational Perception & Cognition"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 231.9,
+            "t": 717.72,
+            "r": 363.46,
+            "b": 695.58,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "Question paper",
+      "text": "Question paper",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.8,
+            "t": 676.592,
+            "r": 522.208,
+            "b": 649.508,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            129
+          ]
+        }
+      ],
+      "orig": "Please answer Part-A and Part-B in separate answer books. Indicate the part clearly on top of the cover page of each answer book.",
+      "text": "Please answer Part-A and Part-B in separate answer books. Indicate the part clearly on top of the cover page of each answer book."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 266.9,
+            "t": 627.656,
+            "r": 332.42,
+            "b": 609.944,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "PART - A",
+      "text": "PART - A",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.6,
+            "t": 603.892,
+            "r": 510.572,
+            "b": 549.208,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            302
+          ]
+        }
+      ],
+      "orig": "1. Assume that a person is driving a car, while listening to music. The car's driver assistance system detects a pedestrian ahead on the road and estimates that the driver needs to apply his brakes within 10-15 ms to avoid an accident. Which of the following alarms will be most effective in this case?",
+      "text": "1. Assume that a person is driving a car, while listening to music. The car's driver assistance system detects a pedestrian ahead on the road and estimates that the driver needs to apply his brakes within 10-15 ms to avoid an accident. Which of the following alarms will be most effective in this case?",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 106.1,
+            "t": 534.892,
+            "r": 329.252,
+            "b": 521.608,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "1. Audio alarm, e.g. beeps from the speakers.",
+      "text": "1. Audio alarm, e.g. beeps from the speakers.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 106.1,
+            "t": 521.092,
+            "r": 339.524,
+            "b": 507.808,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            50
+          ]
+        }
+      ],
+      "orig": "2. Visual alarm, e.g. flashing light on the panel.",
+      "text": "2. Visual alarm, e.g. flashing light on the panel.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 106.1,
+            "t": 507.292,
+            "r": 350.132,
+            "b": 494.008,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "3. Vibro-tactile alarm, e.g. a vibration on the seat.",
+      "text": "3. Vibro-tactile alarm, e.g. a vibration on the seat.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 88.1,
+            "t": 479.692,
+            "r": 448.46,
+            "b": 466.408,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            77
+          ]
+        }
+      ],
+      "orig": "Please justify your answer. Assume that the car has all the three provisions.",
+      "text": "Please justify your answer. Assume that the car has all the three provisions."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.6,
+            "t": 446.592,
+            "r": 295.94,
+            "b": 336.708,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            301
+          ]
+        }
+      ],
+      "orig": "2. Assume that you have to distinguish some regions with five gray-shade colors (as illustrated in the adjoining diagram in three shades, white [255], gray [127] and black [0]). What color values will you use for achieving best perceptual distinction? Please justify your answer. [Hint: log 2 256 = 8]",
+      "text": "2. Assume that you have to distinguish some regions with five gray-shade colors (as illustrated in the adjoining diagram in three shades, white [255], gray [127] and black [0]). What color values will you use for achieving best perceptual distinction? Please justify your answer. [Hint: log 2 256 = 8]",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 62.3,
+            "t": 316.89200000000005,
+            "r": 360.536,
+            "b": 303.60799999999995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            60
+          ]
+        }
+      ],
+      "orig": "3 a. Why does a haptic display require a high sampling rate?",
+      "text": "3 a. Why does a haptic display require a high sampling rate?",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.6,
+            "t": 289.2919999999999,
+            "r": 358.58,
+            "b": 276.00800000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "b. What is the importance of Surface Contact Point (SCP)?",
+      "text": "b. What is the importance of Surface Contact Point (SCP)?",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 62.3,
+            "t": 256.192,
+            "r": 462.164,
+            "b": 242.90800000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            78
+          ]
+        }
+      ],
+      "orig": "4 a. Explain the priciples behind MP3 and AAC perceptual audio coding schemes.",
+      "text": "4 a. Explain the priciples behind MP3 and AAC perceptual audio coding schemes.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.6,
+            "t": 228.59199999999998,
+            "r": 504.872,
+            "b": 201.50800000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            111
+          ]
+        }
+      ],
+      "orig": "b. What are the main differences between coding schemes used for music system and for telephony / conferencing?",
+      "text": "b. What are the main differences between coding schemes used for music system and for telephony / conferencing?",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 62.3,
+            "t": 181.692,
+            "r": 427.508,
+            "b": 168.40800000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            76
+          ]
+        }
+      ],
+      "orig": "5 a. What are the factors resposible for perception of size in human vision?",
+      "text": "5 a. What are the factors resposible for perception of size in human vision?",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.6,
+            "t": 154.09199999999998,
+            "r": 423.212,
+            "b": 127.00800000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "b. Why does the left arrow in the adjoining figure generally appear to be shorter than the right one?",
+      "text": "b. Why does the left arrow in the adjoining figure generally appear to be shorter than the right one?",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 523.6,
+            "t": 603.892,
+            "r": 529.6,
+            "b": 590.608,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 523.6,
+            "t": 432.792,
+            "r": 529.6,
+            "b": 419.508,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 523.6,
+            "t": 316.89200000000005,
+            "r": 529.6,
+            "b": 303.60799999999995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "2",
+      "text": "2"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 523.6,
+            "t": 289.2919999999999,
+            "r": 529.6,
+            "b": 276.00800000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "2",
+      "text": "2"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 523.6,
+            "t": 256.192,
+            "r": 529.6,
+            "b": 242.90800000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "5",
+      "text": "5"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 523.6,
+            "t": 228.59199999999998,
+            "r": 529.6,
+            "b": 215.308,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 523.6,
+            "t": 181.692,
+            "r": 529.6,
+            "b": 168.40800000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 523.6,
+            "t": 154.09199999999998,
+            "r": 529.6,
+            "b": 140.808,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 425.0,
+            "t": 86.65599999999995,
+            "r": 537.532,
+            "b": 68.94399999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "... ... Please turn over",
+      "text": "... ... Please turn over"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 273.3,
+            "t": 781.856,
+            "r": 329.524,
+            "b": 764.144,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "PART-B",
+      "text": "PART-B",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 73.9,
+            "t": 758.092,
+            "r": 511.556,
+            "b": 703.408,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            306
+          ]
+        }
+      ],
+      "orig": "6. Describe the key features of the massive modularity hypothesis of Cosmides and Tooby. How did this hypothesis come about on the basis on human performance on the Wason selection test? What do you think are the key weaknesses of this hypothesis? Is it compatible with Fodorean modularity: why or why not?",
+      "text": "6. Describe the key features of the massive modularity hypothesis of Cosmides and Tooby. How did this hypothesis come about on the basis on human performance on the Wason selection test? What do you think are the key weaknesses of this hypothesis? Is it compatible with Fodorean modularity: why or why not?",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 73.9,
+            "t": 683.592,
+            "r": 500.588,
+            "b": 670.308,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            83
+          ]
+        }
+      ],
+      "orig": "7. In what way does ACT-R incorporate Bayesian inference? Explain using an example.",
+      "text": "7. In what way does ACT-R incorporate Bayesian inference? Explain using an example.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 73.9,
+            "t": 664.292,
+            "r": 504.0,
+            "b": 526.808,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            863
+          ]
+        }
+      ],
+      "orig": "8. In this course we have discussed two major types of cognitive modelling approaches: Bayesian and connectionist (neural network). In this question we will try to explore a simple example that can combine the two approaches. Consider a very basic neural network with just two inputs, x 1 and x 2 , and a single neuron which computes y = \u03c3(w  + w x  + w x ) 0 1 1 2 2 , where \u03c3 is the logistic sigmoid \u03c3(a) = 1/(1 + e -a ). In other words, we are just referring to a standard logistic regression model. Further suppose that we have a data set with N points D = {( x 11 , x 12 , t 1 ); ( x 21 , x 22 , t 2 ); ... ( x N1 , x N2 , t N )} , where t i {0, 1} is the true output for data point  . As usual in logistic regression, we \u2208 i will interpret the model output y as the probability that the actual output is 1, i.e., p(t  = 1|x i i1 , x i2 ) = y(x i1 , x i2 ) .",
+      "text": "8. In this course we have discussed two major types of cognitive modelling approaches: Bayesian and connectionist (neural network). In this question we will try to explore a simple example that can combine the two approaches. Consider a very basic neural network with just two inputs, x 1 and x 2 , and a single neuron which computes y = \u03c3(w  + w x  + w x ) 0 1 1 2 2 , where \u03c3 is the logistic sigmoid \u03c3(a) = 1/(1 + e -a ). In other words, we are just referring to a standard logistic regression model. Further suppose that we have a data set with N points D = {( x 11 , x 12 , t 1 ); ( x 21 , x 22 , t 2 ); ... ( x N1 , x N2 , t N )} , where t i {0, 1} is the true output for data point  . As usual in logistic regression, we \u2208 i will interpret the model output y as the probability that the actual output is 1, i.e., p(t  = 1|x i i1 , x i2 ) = y(x i1 , x i2 ) .",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 74.6,
+            "t": 512.492,
+            "r": 351.212,
+            "b": 499.208,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "a. Draw the neural network, labeling all nodes and links.",
+      "text": "a. Draw the neural network, labeling all nodes and links.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 73.9,
+            "t": 484.892,
+            "r": 507.536,
+            "b": 430.208,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            342
+          ]
+        }
+      ],
+      "orig": "b. Normally neural networks are trained via backpropagation. Variants of this are also used in all the deep learning approaches we talked about. But here, we would like to use a Bayesian approach to infer the weights w = (w , w , w 0 1 2 ). Write down Bayes' rule for the posterior distribution on the weights given the data, i.e., p( w |D) .",
+      "text": "b. Normally neural networks are trained via backpropagation. Variants of this are also used in all the deep learning approaches we talked about. But here, we would like to use a Bayesian approach to infer the weights w = (w , w , w 0 1 2 ). Write down Bayes' rule for the posterior distribution on the weights given the data, i.e., p( w |D) .",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 74.6,
+            "t": 415.892,
+            "r": 509.468,
+            "b": 375.008,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            241
+          ]
+        }
+      ],
+      "orig": "c. One term on the right hand side is the likelihood of the data. Given the model and data as described above, can you expand this term to explicitly write down the likelihood as a function of the model parameters and individual data points?",
+      "text": "c. One term on the right hand side is the likelihood of the data. Given the model and data as described above, can you expand this term to explicitly write down the likelihood as a function of the model parameters and individual data points?",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 73.9,
+            "t": 360.692,
+            "r": 502.132,
+            "b": 333.608,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            92
+          ]
+        }
+      ],
+      "orig": "d. The other term dependent on w is the prior. Can you give some reasonable choice for this?",
+      "text": "d. The other term dependent on w is the prior. Can you give some reasonable choice for this?",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 74.6,
+            "t": 319.2919999999999,
+            "r": 507.776,
+            "b": 237.00800000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            505
+          ]
+        }
+      ],
+      "orig": "e. Having done parts (c) and (d), you get the posterior as a function of the given data points and the parameters. One can now maximise this (if not analytically then numerically or heuristically) to get the MAP estimates for the parameters w . How do you think these estimates relate to those that would have been obtained using standard backpropagation? Can you think of any advantage the Bayesian approach might have, especially in the context of the kinds of cognitive modelling tasks we've looked at?",
+      "text": "e. Having done parts (c) and (d), you get the posterior as a function of the given data points and the parameters. One can now maximise this (if not analytically then numerically or heuristically) to get the MAP estimates for the parameters w . How do you think these estimates relate to those that would have been obtained using standard backpropagation? Can you think of any advantage the Bayesian approach might have, especially in the context of the kinds of cognitive modelling tasks we've looked at?",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 73.9,
+            "t": 230.99199999999996,
+            "r": 287.24,
+            "b": 217.70799999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "orig": "9. Condsider the following three sentences:",
+      "text": "9. Condsider the following three sentences:",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.8,
+            "t": 203.39200000000005,
+            "r": 470.816,
+            "b": 190.10799999999995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            68
+          ]
+        }
+      ],
+      "orig": "1. The daughter of the colonel who had a black dress left the party.",
+      "text": "1. The daughter of the colonel who had a black dress left the party.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.8,
+            "t": 189.59199999999998,
+            "r": 491.42,
+            "b": 176.308,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            71
+          ]
+        }
+      ],
+      "orig": "2. The daughter of the colonel who had a black mustache left the party.",
+      "text": "2. The daughter of the colonel who had a black mustache left the party.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 144.8,
+            "t": 175.79200000000003,
+            "r": 484.112,
+            "b": 162.50800000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            70
+          ]
+        }
+      ],
+      "orig": "3. The brother of the colonel who had a black mustache left the party.",
+      "text": "3. The brother of the colonel who had a black mustache left the party.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 74.6,
+            "t": 148.192,
+            "r": 508.7,
+            "b": 121.10799999999995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            124
+          ]
+        }
+      ],
+      "orig": "a. According to the race-based model of sentence processing, which of these three should be easiest to process? Explain why.",
+      "text": "a. According to the race-based model of sentence processing, which of these three should be easiest to process? Explain why.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 73.9,
+            "t": 106.79200000000003,
+            "r": 495.764,
+            "b": 79.70799999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            139
+          ]
+        }
+      ],
+      "orig": "b. The easiest to process sentence is actually problematic: can you say why? Does this indicate a flaw with race-based sentence processing?",
+      "text": "b. The easiest to process sentence is actually problematic: can you say why? Does this indicate a flaw with race-based sentence processing?",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 523.7,
+            "t": 758.092,
+            "r": 529.7,
+            "b": 744.808,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "6",
+      "text": "6"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 523.7,
+            "t": 683.592,
+            "r": 529.7,
+            "b": 670.308,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 523.7,
+            "t": 664.292,
+            "r": 529.7,
+            "b": 651.008,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "7",
+      "text": "7"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 523.7,
+            "t": 230.99199999999996,
+            "r": 529.7,
+            "b": 217.70799999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "4",
+      "text": "4"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 303.3882141113281,
+            "t": 449.2148132324219,
+            "r": 453.3804016113281,
+            "b": 353.0048828125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 144,
+        "size": {
+          "width": 300.0,
+          "height": 192.0
+        },
+        "uri": "data:image/png;base64,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"
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 455.5544738769531,
+            "t": 160.05438232421875,
+            "r": 528.8773193359375,
+            "b": 99.02496337890625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 144,
+        "size": {
+          "width": 147.0,
+          "height": 122.0
+        },
+        "uri": "data:image/png;base64,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"
+      },
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 2
+    }
+  }
+}

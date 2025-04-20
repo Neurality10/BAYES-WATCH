@@ -1,0 +1,29 @@
+{
+  "source_file": "ell788_maj.pdf",
+  "processing_status": "SUCCESS",
+  "start_time_iso": "2025-04-20T02:36:34+0530",
+  "end_time_iso": "2025-04-20T02:36:36+0530",
+  "duration_seconds": 2.56,
+  "pipeline_configuration": {
+    "ocr_engine": "Disabled",
+    "ocr_languages": [],
+    "device_setting": "auto",
+    "accelerator_used": "AUTO",
+    "image_scale": 2.0,
+    "allowed_formats": [
+      "DOCX",
+      "PDF"
+    ]
+  },
+  "output_counts": {
+    "text_formats": {
+      "docling_markdown": 1,
+      "json": 1,
+      "plain_text": 1
+    },
+    "images": 2,
+    "tables": 0,
+    "book_like_markdown": 1
+  },
+  "processing_errors_warnings": []
+}
