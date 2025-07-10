@@ -1,5 +1,3 @@
-# --- START OF auth_braille_helpers.py ---
-
 import streamlit as st
 import os
 import io
@@ -16,31 +14,20 @@ from pydub.exceptions import CouldntDecodeError
 import logging
 from pathlib import Path
 
-# --- Logging Setup ---
-log = logging.getLogger(__name__) # Use __name__ for logger hierarchy
+log = logging.getLogger(__name__) 
+from deepface import DeepFace
 
-# --- Feature-Specific Imports (Auth/Braille) ---
-try:
-    from deepface import DeepFace
-except ImportError:
-    log.warning("DeepFace library not found. Face auth features will be disabled.")
-    DeepFace = None # Set to None if import fails
-
-# --- Configuration (Auth, Braille) ---
-# Base directory relative to this helper file (assuming it's in the main app dir)
 _APP_DIR = Path(__file__).resolve().parent
 APP1_BASE_DIR = _APP_DIR / "app1_data"
 LETTER_AUDIO_DIR = APP1_BASE_DIR / "letters_wav"
 REGISTERED_EMBEDDINGS_DIR = APP1_BASE_DIR / "registered_face_embeddings"
 REGISTERED_VOICES_DIR = APP1_BASE_DIR / "registered_voices"
-TEMP_AUDIO_DIR = APP1_BASE_DIR / "temp_audio" # Inside app1_data
+TEMP_AUDIO_DIR = APP1_BASE_DIR / "temp_audio" 
 
-# Bleep sound file names (paths constructed relative to APP1_BASE_DIR)
 BEEP_HIGH_FILENAME = "beep_high.wav"
 BEEP_MID_FILENAME  = "beep.wav"
 BEEP_LOW_FILENAME  = "beep_low.wav"
 
-# Audio Settings
 BLEEP_DELAY_MS = 350
 INTER_LETTER_DELAY_MS = 400
 INITIAL_PAUSE_MS = 100
@@ -53,7 +40,6 @@ N_MELS = 128
 N_FFT = 2048
 HOP_LENGTH = 512
 
-# Authentication Settings
 PREDEFINED_PHRASE = "My voice is my passport, verify me."
 VOICE_SIMILARITY_THRESHOLD = 0.60
 if DeepFace:
@@ -65,7 +51,6 @@ else:
     FACE_SIMILARITY_THRESHOLD = None
     FACE_VERIFICATION_DELAY = None
 
-# Braille Data
 BRAILLE_PATTERNS = { # Standard Braille Patterns
     'A':(1,0,0,0,0,0),'B':(1,1,0,0,0,0),'C':(1,0,0,1,0,0),'D':(1,0,0,1,1,0),'E':(1,0,0,0,1,0),'F':(1,1,0,1,0,0),
     'G':(1,1,0,1,1,0),'H':(1,1,0,0,1,0),'I':(0,1,0,1,0,0),'J':(0,1,0,1,1,0),'K':(1,0,1,0,0,0),'L':(1,1,1,0,0,0),
@@ -75,8 +60,6 @@ BRAILLE_PATTERNS = { # Standard Braille Patterns
 }
 ALPHABET = sorted(BRAILLE_PATTERNS.keys())
 
-# --- Ensure App1 Dirs Exist ---
-# This code runs when the module is imported
 try:
     APP1_BASE_DIR.mkdir(parents=True, exist_ok=True)
     LETTER_AUDIO_DIR.mkdir(parents=True, exist_ok=True)
@@ -86,11 +69,6 @@ try:
     log.info(f"Auth/Braille data directories ensured under: {APP1_BASE_DIR}")
 except Exception as e:
     log.error(f"Failed to create mandatory Auth/Braille directories under {APP1_BASE_DIR}: {e}", exc_info=True)
-    # We might want to raise an error here or let the app handle the failure downstream
-    # For now, log the error. The functions using these dirs will likely fail later.
-
-
-# --- Helper Functions (Auth/Braille) ---
 
 @st.cache_resource # Cache loaded sounds
 def load_bleep_sounds_st():
@@ -103,7 +81,6 @@ def load_bleep_sounds_st():
     }
     loaded_correctly = True
     missing_files_msg = []
-    # Use logging instead of Streamlit elements for background loading status
     log.info("Loading bleep sound resources...")
 
     for key, path_obj in paths.items():
@@ -132,10 +109,7 @@ def load_bleep_sounds_st():
         log.info("All bleep sounds loaded successfully.")
         return bleeps
     else:
-        # Log the failure but let the main app decide how to handle it (e.g., display st.error)
-        log.error(f"Failed loading bleep WAVs. Errors:\n" + "\n".join(missing_files_msg))
-        # Display error in Streamlit UI when this function is called if loading fails
-        st.error("Failed to load one or more critical audio resources (bleeps). Braille audio disabled.")
+        log.error(f"Failed loading bleep WAVs".join(missing_files_msg))
         return None
 
 @st.cache_resource
@@ -161,12 +135,8 @@ def load_registered_voices_st():
     log.info(f"Loaded {loaded_count} registered voice embeddings ({error_count} errors).")
     return registered_data
 
-@st.cache_data # Cache the generated audio bytes based on letter and bleep sounds
+@st.cache_data
 def generate_braille_audio_bytes_st(letter, _bleep_sounds):
-    """
-    Generates combined Braille audio (letter announcement + dot pattern)
-    using WAV files and exports as WAV bytes in memory.
-    """
     if not isinstance(_bleep_sounds, dict) or not _bleep_sounds:
         st.error("Cannot generate Braille audio: Bleep sounds dictionary is invalid or empty.")
         log.error("generate_braille_audio_bytes_st called with invalid _bleep_sounds.")
@@ -213,7 +183,7 @@ def generate_braille_audio_bytes_st(letter, _bleep_sounds):
                 pan_val = LEFT_PAN_PD if dot_number <= 3 else RIGHT_PAN_PD
                 processed_bleep = base_bleep.pan(pan_val)
             else:
-                log.warning(f"Could not find loaded bleep sound for key '{bleep_key}' (dot {dot_number}, letter {letter}). Using silence.")
+                log.warning(f"Could not find loaded bleep sound")
 
         bleep_sequence += processed_bleep
         padding_duration = max(0, BLEEP_DELAY_MS - len(processed_bleep))
@@ -231,9 +201,8 @@ def generate_braille_audio_bytes_st(letter, _bleep_sounds):
         st.error(f"Error exporting generated audio: {e}")
         return None
 
-@st.cache_resource # Cache loaded face embeddings
+@st.cache_resource 
 def load_registered_embeddings_st():
-    """Loads registered face embeddings from .npy files."""
     known_face_embeddings = []
     known_face_names = []
     if DeepFace is None:
@@ -262,22 +231,15 @@ def load_registered_embeddings_st():
     return known_face_embeddings, known_face_names
 
 def run_face_verification_window(known_embeddings, known_names):
-    """
-    Opens a camera window using OpenCV for real-time face verification.
-    Uses constants defined in this module (FACE_MODEL_NAME, etc.)
-    Returns: tuple: (success (bool), user_id (str | None))
-    """
     if DeepFace is None:
-        st.error("Face verification requires the DeepFace library, which is not available.")
-        log.error("run_face_verification_window called but DeepFace is None.")
+        st.error("Face verification not available.")
         return False, None
     if not known_embeddings or not known_names:
         st.warning("No face embeddings registered for verification.")
-        log.warning("run_face_verification_window called with no registered embeddings.")
         return False, None
 
     st.info("Starting face verification... Please look at the camera.")
-    time.sleep(1) # User prep time
+    time.sleep(1) 
 
     video_capture = None
     success = False
@@ -310,7 +272,6 @@ def run_face_verification_window(known_embeddings, known_names):
             detected_embedding, facial_area = None, None
 
             try:
-                # Note: Uses FACE_MODEL_NAME constant from this module
                 objs = DeepFace.represent(
                     img_path=frame,
                     model_name=FACE_MODEL_NAME,
@@ -334,7 +295,6 @@ def run_face_verification_window(known_embeddings, known_names):
                 best_match_index = np.argmax(similarities[0])
                 max_similarity = similarities[0][best_match_index]
 
-                # Note: Uses FACE_SIMILARITY_THRESHOLD constant
                 if max_similarity >= FACE_SIMILARITY_THRESHOLD:
                     matched_name = known_names[best_match_index]
 
@@ -347,14 +307,13 @@ def run_face_verification_window(known_embeddings, known_names):
                         tentative_match = True
                         current_tentative_user = matched_name
                         last_verification_time = time.time()
-                        color = (255, 255, 0) # Cyan tentative
+                        color = (255, 255, 0) 
                         label = f"Verifying: {label}"
                     elif current_tentative_user == matched_name:
-                        # Note: Uses FACE_VERIFICATION_DELAY constant
                         if time.time() - last_verification_time > FACE_VERIFICATION_DELAY:
                             success = True
                             verified_user_id = matched_name
-                            color = (0, 255, 0) # Green success
+                            color = (0, 255, 0) # Green for success
                             label = f"Verified: {matched_name}"
                             cv2.rectangle(display_frame, (x, y), (x + w, y + h), color, 3)
                             cv2.putText(display_frame, label, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.7, color, 2)
@@ -387,24 +346,16 @@ def run_face_verification_window(known_embeddings, known_names):
         if video_capture and video_capture.isOpened():
             video_capture.release()
         cv2.destroyAllWindows()
-        for i in range(5): cv2.waitKey(1) # Ensure window closes fully
+        for i in range(5): cv2.waitKey(1) 
 
     if success:
-        # Let the main app display success message
         log.info(f"Face verification successful for user: {verified_user_id}")
         return True, verified_user_id
     else:
         log.info(f"Face verification failed or cancelled. Last tentative user: {current_tentative_user}")
-        # Let the main app display failure message
         return False, None
 
 def record_audio_st(filename: str, duration: int = VOICE_REC_DURATION, sr: int = SAMPLE_RATE):
-    """
-    Records audio from the default microphone using constants from this module.
-    Displays UI feedback using Streamlit.
-    Returns: str | None: The filename if successful, None otherwise.
-    """
-    # Use Streamlit elements for user feedback during recording
     st.info(f"Please prepare to say the phrase: '{PREDEFINED_PHRASE}'")
     time.sleep(1.0)
 
@@ -418,17 +369,15 @@ def record_audio_st(filename: str, duration: int = VOICE_REC_DURATION, sr: int =
             time.sleep(1)
             st.write("1...")
             time.sleep(1)
-            st.write("🔴 RECORDING NOW...")
+            st.write("RECORDING NOW...")
 
-        # Start recording using constants from this module
         recording = sd.rec(int(duration * sr), samplerate=sr, channels=1, dtype='float32')
         sd.wait()
 
-        placeholder.success("✅ Recording finished.")
+        placeholder.success(" Recording finished.")
         log.info(f"Audio recording finished ({duration}s).")
 
         file_path = Path(filename)
-        # Ensure parent directory exists (uses TEMP_AUDIO_DIR implicitly via caller)
         file_path.parent.mkdir(parents=True, exist_ok=True)
 
         sf.write(file_path, recording, sr)
@@ -447,10 +396,6 @@ def record_audio_st(filename: str, duration: int = VOICE_REC_DURATION, sr: int =
         return None
 
 def extract_mel_spectrogram_st(audio_path: str, sr: int = SAMPLE_RATE, n_mels: int = N_MELS, n_fft: int = N_FFT, hop_length: int = HOP_LENGTH):
-    """
-    Extracts log Mel spectrogram using constants from this module.
-    Returns: np.ndarray | None: The processed spectrogram, or None on error.
-    """
     try:
         y, sr_loaded = librosa.load(audio_path, sr=sr)
         if sr_loaded != sr:
@@ -467,8 +412,6 @@ def extract_mel_spectrogram_st(audio_path: str, sr: int = SAMPLE_RATE, n_mels: i
             y=y_trimmed, sr=sr, n_fft=n_fft, hop_length=hop_length, n_mels=n_mels
         )
         log_mel_spec = librosa.power_to_db(mel_spec, ref=np.max)
-
-        # Pad/truncate using VOICE_REC_DURATION constant
         target_len_frames = int(np.ceil(VOICE_REC_DURATION * sr / hop_length))
         current_len_frames = log_mel_spec.shape[1]
 
@@ -494,4 +437,3 @@ def extract_mel_spectrogram_st(audio_path: str, sr: int = SAMPLE_RATE, n_mels: i
         log.error(f"Error extracting Mel spectrogram from {audio_path}: {e}", exc_info=True)
         return None
 
-# --- END OF auth_braille_helpers.py ---
